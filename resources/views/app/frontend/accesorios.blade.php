@@ -1,15 +1,14 @@
+
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CellMark-BOMT</title>
+    <title>CellMark</title>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="shortcut icon" href="./assets/img/tienda-online.png" type="image/x-icon">
-    <link rel="stylesheet" href="./assets/css/buscador.css">
- <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
-
-    
+    <link rel="shortcut icon" href="Img/tienda-online.png" type="image/x-icon">
+    <link rel="stylesheet" href="/css/inicio.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -37,8 +36,8 @@
                 <h2>CellMark</h2>
                 <ul>
                     <li><a href="/Html/buscador.html"><span class="material-icons">explore</span> Explorar todo</a></li>
-                    <li><a href="#" class="active"><span class="material-icons">smartphone</span> Celulares</a></li>
-                    <li><a href="/Html/accesorio.html"><span class="material-icons">cable</span> Accesorios</a></li>
+                    <li><a href="/index.html"><span class="material-icons">smartphone</span> Celulares</a></li>
+                    <li><a href="#" class="active"><span class="material-icons">cable</span> Accesorios</a></li>
                     <li><a href="/Html/inicio de seseion.html" onclick="registro('Servicio Técnico');"><span class="material-icons">build</span> Servicio Técnico</a></li>
                     <li><a href="/Html/inicio de seseion.html" onclick="registro('Vender');"><span class="material-icons">sell</span> Vender</a></li>
                 </ul>
@@ -47,18 +46,18 @@
 
         <section class="main-content">
             <div class="products-header">
-                <h2>Celulares</h2>
+                <h2>Accesorios</h2>
                 <span class="material-icons">filter_list</span>
             </div>
 
             <div class="products-grid">
                 <!-- Producto 1 -->
                 <div class="product-card">
-                    <img src="./assets/img/Iphone13.webp" alt="iPhone 13">
+                    <img src="/Img/caegador.webp" alt="iPhone ">
                     <div class="product-info">
-                        <h3>iPhone 13 - 128GB</h3>
-                        <p class="product-price">$699</p>
-                        <p>Excelente estado, batería 95%</p>
+                        <h3>Cargador de iPhone</h3>
+                        <p class="product-price">$230</p>
+                        <p>Cargador compatible para iPhone x-xs-11-12-13-14</p>
                         <div class="product-location">
                             <span class="material-icons">location_on</span>
                             AGRADO-HUILA
@@ -71,11 +70,11 @@
                 </div>
                 <!-- Producto 2 -->
                 <div class="product-card">
-                    <img src="./assets/img/galaxy-s21.avif" alt="Samsung Galaxy S21">
+                    <img src="/Img/airpors.webp" alt="Audifono Analambricos">
                     <div class="product-info">
-                        <h3>Samsung Galaxy S21 - 256GB</h3>
-                        <p class="product-price">$649</p>
-                        <p>Como nuevo, un mes de uso</p>
+                        <h3>Audífonos inalámbricos</h3>
+                        <p class="product-price">$400</p>
+                        <p>AirPods 3ra Generación Para iPhone 1:1 Audífonos inalámbricos AAA</p>
                         <div class="product-location">
                             <span class="material-icons">location_on</span>
                             NEIVA-HUILA
@@ -88,11 +87,11 @@
                 </div>
                 <!-- Producto 3 -->
                 <div class="product-card">
-                    <img src="./assets/img/HonorMagic6.avif" alt="Honor Magic 6 LITE">
+                    <img src="/Img/cargadotipoc.webp" alt="Honor Magic 6 LITE">
                     <div class="product-info">
-                        <h3>Honor Magic 6 LITE - 128GB</h3>
-                        <p class="product-price">$549</p>
-                        <p>Perfecto estado, con garantía</p>
+                        <h3>Cargador Tipo C</h3>
+                        <p class="product-price">$214</p>
+                        <p>Perfecto estado</p>
                         <div class="product-location">
                             <span class="material-icons">location_on</span>
                             GARZON-HUILA
@@ -105,10 +104,10 @@
                 </div>
                 <!-- Producto 4 -->
                 <div class="product-card">
-                    <img src="./assets/img/OnePlus.jpg" alt="OnePlus 9">
+                    <img src="/Img/cARGADOR PC.webp" alt="OnePlus 9">
                     <div class="product-info">
-                        <h3>OnePlus 9 - 256GB</h3>
-                        <p class="product-price">$579</p>
+                        <h3>Cargador PC</h3>
+                        <p class="product-price">$350</p>
                         <p>Casi sin uso, con accesorios</p>
                         <div class="product-location">
                             <span class="material-icons">location_on</span>
@@ -122,10 +121,10 @@
                 </div>
                 <!-- Producto 5 -->
                 <div class="product-card">
-                    <img src="./assets/img/XiaomiMi11.png" alt="Xiaomi Note 13">
+                    <img src="/Img/Fundas.jpg" alt="Xiaomi Note 13">
                     <div class="product-info">
-                        <h3>Xiaomi Note 13 - 128GB</h3>
-                        <p class="product-price">$499</p>
+                        <h3>Fundas</h3>
+                        <p class="product-price">$12</p>
                         <p>Excelente rendimiento, poco uso</p>
                         <div class="product-location">
                             <span class="material-icons">location_on</span>
@@ -139,10 +138,10 @@
                 </div>
                 <!-- Producto 6 -->
                 <div class="product-card">
-                    <img src="./assets/img/Iphone11.avif" alt="iPhone 11 ">
+                    <img src="/Img/inalambrica.webp" alt="iPhone 12 Mini">
                     <div class="product-info">
-                        <h3>iPhone 11 - 64GB</h3>
-                        <p class="product-price">$479</p>
+                        <h3>Carga Inalambrica</h3>
+                        <p class="product-price">$379</p>
                         <p>Compacto y potente, batería 90%</p>
                         <div class="product-location">
                             <span class="material-icons">location_on</span>
@@ -160,35 +159,37 @@
     <ul class="redes-sociales">
         <li>
             <a href="https://www.facebook.com/tu_perfil" target="_blank">
-                <img src="./assets/img/facebook.png" alt="Facebook" />
+                <img src="/Img/facebook.png" alt="Facebook" />
                 Facebook
             </a>
         </li>
         <li>
             <a href="https://www.twitter.com/tu_perfil" target="_blank">
-                <img src="./assets/img/medios-de-comunicacion-social.png" alt="Twitter" />
+                <img src="/Img/medios-de-comunicacion-social.png" alt="Twitter" />
                 Twitter
             </a>
         </li>
         <li>
             <a href="https://www.instagram.com/tu_perfil" target="_blank">
-                <img src="./assets/img/logotipo-de-instagram.png" alt="Instagram" />
+                <img src="/Img/logotipo-de-instagram.png" alt="Instagram" />
                 Instagram
             </a>
         </li>
         <li>
             <a href="https://www.tiktok.com/@hoyjskills/video/7423828702221389062?lang=es&q=efootball%20highlights%20&t=1729180594486/tu_perfil" target="_blank">
-                <img src="./assets/img/tik-tok.png" alt="Tiktok" />
+                <img src="/Img/tik-tok.png" alt="Tiktok" />
                 Tiktok
             </a>
         </li>
         <li>
             <a href="https://web.whatsapp.com/tu_perfil" target="_blank">
-                <img src="./assets/img/whatsapp.png" alt="Whatsapp" width="50px" height="50px"/>
+                <img src="/Img/whatsapp.png" alt="Whatsapp" />
                 Whatsapp
             </a>
         </li>
     </ul>
-    <script src="/public/assets/js/buscador.js"></script>
+    <script src="Untitled-1.js"></script>
+    
 </body>
+<script src="/Js/buscador.js"></script>
 </html>
