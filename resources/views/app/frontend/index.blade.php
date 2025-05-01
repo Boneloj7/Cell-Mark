@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CellMark-BOMT</title>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="shortcut icon" href="Img/tienda-online.png" type="image/x-icon">
-    <link rel="stylesheet" href="/public/assets/css/inicio.css">
+    <link rel="shortcut icon" href="./assets/img/tienda-online.png" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/css/buscador.css">
  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
 
     
@@ -54,7 +54,7 @@
             <div class="products-grid">
                 <!-- Producto 1 -->
                 <div class="product-card">
-                    <img src="Img/ihpne 13.webp" alt="iPhone 13">
+                    <img src="./assets/img/Iphone13.webp" alt="iPhone 13">
                     <div class="product-info">
                         <h3>iPhone 13 - 128GB</h3>
                         <p class="product-price">$699</p>
@@ -71,7 +71,7 @@
                 </div>
                 <!-- Producto 2 -->
                 <div class="product-card">
-                    <img src="Img/galaxy-s21.avif" alt="Samsung Galaxy S21">
+                    <img src="./assets/img/galaxy-s21.avif" alt="Samsung Galaxy S21">
                     <div class="product-info">
                         <h3>Samsung Galaxy S21 - 256GB</h3>
                         <p class="product-price">$649</p>
@@ -88,7 +88,7 @@
                 </div>
                 <!-- Producto 3 -->
                 <div class="product-card">
-                    <img src="Img/pixel 6.avif" alt="Honor Magic 6 LITE">
+                    <img src="./assets/img/HonorMagic6.avif" alt="Honor Magic 6 LITE">
                     <div class="product-info">
                         <h3>Honor Magic 6 LITE - 128GB</h3>
                         <p class="product-price">$549</p>
@@ -105,7 +105,7 @@
                 </div>
                 <!-- Producto 4 -->
                 <div class="product-card">
-                    <img src="Img/oneplus.jpg" alt="OnePlus 9">
+                    <img src="./assets/img/OnePlus.jpg" alt="OnePlus 9">
                     <div class="product-info">
                         <h3>OnePlus 9 - 256GB</h3>
                         <p class="product-price">$579</p>
@@ -122,7 +122,7 @@
                 </div>
                 <!-- Producto 5 -->
                 <div class="product-card">
-                    <img src="Img/xiaomi mi 11.png" alt="Xiaomi Note 13">
+                    <img src="./assets/img/XiaomiMi11.png" alt="Xiaomi Note 13">
                     <div class="product-info">
                         <h3>Xiaomi Note 13 - 128GB</h3>
                         <p class="product-price">$499</p>
@@ -139,9 +139,9 @@
                 </div>
                 <!-- Producto 6 -->
                 <div class="product-card">
-                    <img src="Img/IPHONE-125.avif" alt="iPhone 12 Mini">
+                    <img src="./assets/img/Iphone11.avif" alt="iPhone 11 ">
                     <div class="product-info">
-                        <h3>iPhone 12 Mini - 64GB</h3>
+                        <h3>iPhone 11 - 64GB</h3>
                         <p class="product-price">$479</p>
                         <p>Compacto y potente, batería 90%</p>
                         <div class="product-location">
@@ -160,31 +160,31 @@
     <ul class="redes-sociales">
         <li>
             <a href="https://www.facebook.com/tu_perfil" target="_blank">
-                <img src="Img/facebook.png" alt="Facebook" />
+                <img src="./assets/img/facebook.png" alt="Facebook" />
                 Facebook
             </a>
         </li>
         <li>
             <a href="https://www.twitter.com/tu_perfil" target="_blank">
-                <img src="Img/medios-de-comunicacion-social.png" alt="Twitter" />
+                <img src="./assets/img/medios-de-comunicacion-social.png" alt="Twitter" />
                 Twitter
             </a>
         </li>
         <li>
             <a href="https://www.instagram.com/tu_perfil" target="_blank">
-                <img src="Img/logotipo-de-instagram.png" alt="Instagram" />
+                <img src="./assets/img/logotipo-de-instagram.png" alt="Instagram" />
                 Instagram
             </a>
         </li>
         <li>
             <a href="https://www.tiktok.com/@hoyjskills/video/7423828702221389062?lang=es&q=efootball%20highlights%20&t=1729180594486/tu_perfil" target="_blank">
-                <img src="Img/tik-tok.png" alt="Tiktok" />
+                <img src="./assets/img/tik-tok.png" alt="Tiktok" />
                 Tiktok
             </a>
         </li>
         <li>
             <a href="https://web.whatsapp.com/tu_perfil" target="_blank">
-                <img src="Img/whatsapp.png" alt="Whatsapp" />
+                <img src="./assets/img/whatsapp.png" alt="Whatsapp" />
                 Whatsapp
             </a>
         </li>
