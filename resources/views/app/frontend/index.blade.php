@@ -6,7 +6,7 @@
     <title>CellMark-BOMT</title>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="shortcut icon" href="Img/tienda-online.png" type="image/x-icon">
-    <link rel="stylesheet" href="css/inicio.css">
+    <link rel="stylesheet" href="/public/assets/css/inicio.css">
  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
 
     
@@ -189,6 +189,6 @@
             </a>
         </li>
     </ul>
-    <script src="/Js/buscador.js"></script>
+    <script src="/public/assets/js/buscador.js"></script>
 </body>
 </html>
