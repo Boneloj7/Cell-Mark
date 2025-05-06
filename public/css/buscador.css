@@ -305,3 +305,7 @@
 .btn-view-more:hover {
     background-color: #45a049;
 }
+ul.redes-sociales li {
+    position: relative;
+    left: 130px;
+}

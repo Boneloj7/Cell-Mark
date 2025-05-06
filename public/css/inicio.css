@@ -212,8 +212,13 @@
             display: flex;
             justify-content: center;
             gap: 15px;
+            position: relative;
+            
         }
-
+ul.redes-sociales li {
+            position: relative;
+            left: 130px;
+        }
         .redes-sociales li {
             display: inline;
         }
@@ -239,42 +244,40 @@
             position: relative;
             display: flex;
             align-items: center;
-           }
-           
-           .search-bar input {
+        }
+            .search-bar input {
             padding-right: 35px;
             width: 100%;
-           }
-           
-           .search-bar .material-icons {
+        }
+
+        .search-bar .material-icons {
             cursor: pointer;
             position: absolute;
             right: 10px;
-           }
-           
-           .reset-search {
+        }
+
+        .reset-search {
             position: absolute !important;
             right: 40px !important;
             color: #888;
-           }
-           
-           .reset-search:hover {
+        }
+        
+        .reset-search:hover {
             color: #f44336;
-           }
-           
+        }
+        
            /* Animación para productos encontrados */
-           @keyframes highlight {
+        @keyframes highlight {
             0% { box-shadow: 0 0 5px 1px rgba(76, 175, 80, 0.5); }
             50% { box-shadow: 0 0 15px 5px rgba(76, 175, 80, 0.8); }
             100% { box-shadow: 0 0 5px 1px rgba(76, 175, 80, 0.5); }
-           }
-           
-           .highlight-result {
+        }
+        
+    .highlight-result {
             animation: highlight 2s ease-in-out;
-           }
-           
+        }
+        
            /* Estilos para el mensaje de resultados */
-           #search-results {
+        #search-results {
             transition: all 0.3s ease;
-           }
-           
+        }

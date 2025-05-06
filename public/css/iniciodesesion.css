@@ -375,3 +375,8 @@
         @keyframes spin {
             to { transform: rotate(360deg); }
         }
+ul.redes-sociales li {
+            position: relative;
+            left: 130px;
+            
+        }
