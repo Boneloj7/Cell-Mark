@@ -23,7 +23,7 @@
         <div class="login-container">
             <div class="login-image">
                 <div class="image-content">
-                    <span class="material-icons image-icon">devices</span>
+                    <span class="material-icons image-icon"></span>
                     <h1>CellMark</h1>
                     <p>Renueva tu tecnología, ahorra y cuida el planeta: Celulares de segunda mano con calidad garantizada</p>
                 </div>
@@ -37,16 +37,16 @@
                     <div class="input-group">
                         <label for="email">Correo Electrónico</label>
                         <input type="email" id="email" required>
-                        <span class="material-icons input-icon">email</span>
+                        <span class="material-icons input-icon"></span>
                     </div>
                     <div class="input-group">
                         <label for="password">Contraseña</label>
                         <input type="password" id="password" required>
-                        <span class="material-icons input-icon">lock</span>
+                        <span class="material-icons input-icon"></span>
                     </div>
                     <button type="submit" id="loginButton">
                         Iniciar Sesión
-                        <span class="material-icons button-icon">login</span>
+                        <span class="material-icons button-icon"></span>
                         <span class="loading" id="loadingSpinner"></span>
                     </button>
                     <div class="forgot-password">
@@ -58,17 +58,7 @@
                     <span>o continúa con</span>
                 </div>
                 
-                <div class="social-login">
-                    <div class="social-btn">
-                        <span class="material-icons">public</span>
-                    </div>
-                    <div class="social-btn">
-                        <span class="material-icons">business</span>
-                    </div>
-                    <div class="social-btn">
-                        <span class="material-icons">account_circle</span>
-                    </div>
-                </div>
+                
                 
                 <div class="form-footer">
                     <div class="register-link">
